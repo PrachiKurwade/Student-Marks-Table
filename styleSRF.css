@@ -1,0 +1,93 @@
+body {
+    background-color:aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+
+h5{
+    text-align: center;
+    color:darkslateblue;
+    font-size: 25px;
+}
+
+form {
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    
+}
+
+textarea {
+    height: 90px;
+}
+
+.gender {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.gender input {
+    width: auto;
+    margin-right: 10px;
+}
+
+button {
+    margin-top: 25px;
+    padding: 12px 30px;
+    background-color:darkslateblue;
+    color: white;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:slateblue;
+}
+
+.table-container {
+    width: 100%;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: darkslateblue;
+    color: white;
+    padding: 15px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+    
+td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 15hpx;
+}
